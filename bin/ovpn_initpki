@@ -17,6 +17,10 @@ nopass=$1
 
 # Provides a sufficient warning before erasing pre-existing files
 easyrsa init-pki
+rndfile="$OPENVPN/pki/.rnd"
+if [ ! -f "$rndfile" ]; then
+    touch "$rndfile"
+fi
 
 # CA always has a password for protection in event server is compromised. The
 # password is only needed to sign client/server certificates.  No password is
