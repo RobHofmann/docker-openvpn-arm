@@ -1,7 +1,8 @@
-# OpenVPN for Docker on ARM (RaspberryPi)
+# OpenVPN Server for Docker on ARM (RaspberryPi)
 
 
 This is a fork from [giggio/docker-openvpn-arm](https://github.com/giggio/docker-openvpn-arm) which was originally forked from [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn).
+Also added some fixes from [sbr1nkmann/docker-openvpn-mqttnotify-arm](https://github.com/sbr1nkmann/docker-openvpn-mqttnotify-arm)
 
 OpenVPN server in a Docker container complete with an EasyRSA PKI CA.
 
